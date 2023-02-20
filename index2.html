@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exemple de fond dégradé avec une photo et du texte</title>
+    <style>
+      body {
+        background: linear-gradient(to bottom right, #00c6ff, #0072ff);
+      }
+
+      .containerTxt {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      .text {
+        flex: 1;
+        padding: 0 20px;
+        color: #fff;
+      }
+
+      h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+      }
+
+      h3 {
+        font-size: 24px;
+        font-weight: normal;
+      }
+
+      .image {
+        flex: 1;
+        text-align: center;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 50%;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="containerTxt">
+      <div class="content">
+        <div class="text">
+          <h1>Titre de l'article</h1>
+          <h3>Description de l'article</h3>
+        </div>
+        <div class="image">
+          <img src="https://via.placeholder.com/300" alt="Placeholder de l'image" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
