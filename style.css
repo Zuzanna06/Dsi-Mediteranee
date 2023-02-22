@@ -10,7 +10,7 @@ body {
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 0 25px;
+	padding: 0 22px;
     
 }
 
@@ -23,7 +23,7 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 100px;
+	height: 105px;
 }
 
 nav img {
@@ -41,9 +41,8 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #224873;
-    
-	text-decoration: none;
+  color: #224873;
+  text-decoration: none;
 	font-size: 14px;
 }
 
@@ -73,7 +72,7 @@ nav ul li a:hover {
 
   .text {
     flex: 1;
-    padding: 0 40px;
+    padding: 0 50px;
     color: #fff;
   }
 
@@ -103,10 +102,10 @@ nav ul li a:hover {
   }
   .image {
     flex: 1;
-    margin-top: 25px;
+    margin-top: 35px;
     margin-left: 20px;
     margin-right:40px;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
     text-align: center;
   }
 
@@ -201,9 +200,8 @@ nav ul li a:hover {
     border-radius: 12px;
     border-color: #47A18B;
     background: #47A18B;
-    box-shadow:  10px 10px 29px #1b2025,15px 15px 29px;
-    
-    
+    box-shadow:  5px 5px 0px 5px rgba(0, 0, 0, 0.05);
+
   }
 
 
@@ -307,15 +305,13 @@ nav ul li a:hover {
     
   }
 
-  .buttomMilieux {
-    text-align: center;
-    }
+   
 
   h2 {
     display: inline;
     font-family: 'Audiowide', cursive;
     text-transform: uppercase; /* mise en majuscule de toutes les lettres*/
-    width: 500px;
+    width: 600px;
     font-weight: 300;
     text-shadow: none;
     color: #585858;
@@ -328,10 +324,16 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     line-height: 140px;
+
+    
+}
+
+.buttomMilieux {
+  text-align: center;
+
 }
 
 
-  
 
   .containerContact {
 	max-width: 1200px;
@@ -343,18 +345,20 @@ nav ul li a:hover {
 
 
   footer{
+    width: 100%;
+    height: 270px;
     display: flex;
+    color: #ffffff;
     background: linear-gradient(0deg, rgba(17,65,125,1) 0%, rgba(152,153,153,1) 100%);
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     max-width: 1200px;
     margin: 0 auto;
-
     font-family: 'Roboto';
     text-decoration: none;
   }
 
-  .icone {
+ .icone {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -362,12 +366,25 @@ nav ul li a:hover {
     width: 32px;
     background: #ffffff;
     border-radius: 50%;
+    margin-right: 10px;
 
 }
 
-.social {
-
+.social .icone{
+  display: flex;
     line-height: 2.1;
+}
 
+
+.containerContact{
+  display: flex;
+}
+
+form{
+  width: 250px;
+  padding-block: 15px;
+  color: #ffffff;
+  border-top-right-radius: 100px;
+  border-color: #FD8A69;
 }
 
