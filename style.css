@@ -51,6 +51,52 @@ nav ul li a:hover {
 }
 
 
+.mobile {
+  display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+  body{
+    height: 200vh;
+  }
+  .mobile {
+    display: block;
+  }
+  .desktop {
+      display: none;
+  }
+  .mobile .burgerbtn{
+    background: #fafafa;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+    position: fixed;
+    top: 15px;
+    z-index: 9999999;
+  }
+  .mobile .menuburger{
+    background: rgba(0, 0, 0, 0.5);
+    height: 0;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+  }
+  .mobile div i{
+    font-size: 1.5em;
+  }
+  .mobile input{
+    appearance: none;
+  }
+  .mobile input:checked ~ .menuburger{
+    height: 100vh;
+  }
+}
 
 
 
@@ -338,53 +384,49 @@ nav ul li a:hover {
   .containerContact {
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 0 25px;
+	padding: 0 px;
+  color: #fff;
+  background: linear-gradient(0deg, rgba(17,65,125,1) 0%, rgba(152,153,153,1) 100%);
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Roboto';
+  text-decoration: none;
     
     }
+
+    .contact{
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
   
-
-
-  footer{
-    width: 100%;
-    height: 270px;
-    display: flex;
-    color: #ffffff;
-    background: linear-gradient(0deg, rgba(17,65,125,1) 0%, rgba(152,153,153,1) 100%);
-    align-items: center;
-    justify-content: space-around;
-    max-width: 1200px;
-    margin: 0 auto;
-    font-family: 'Roboto';
-    text-decoration: none;
-  }
-
- .icone {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 32px;
-    width: 32px;
-    background: #ffffff;
-    border-radius: 50%;
-    margin-right: 10px;
-
-}
-
-.social .icone{
-  display: flex;
-    line-height: 2.1;
-}
-
-
-.containerContact{
-  display: flex;
-}
-
-form{
-  width: 250px;
-  padding-block: 15px;
-  color: #ffffff;
-  border-top-right-radius: 100px;
-  border-color: #FD8A69;
-}
-
+  
+    }
+  
+    
+   .icone {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 32px;
+      width: 32px;
+      background: #ffffff;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+  
+    .social .icone{
+      display: flex;
+    }
+    
+    
+    form{
+      width: 250px;
+      padding-block: 15px;
+      color: #ffffff;
+      border-top-right-radius: 100px;
+      border-color: #FD8A69;
+    }
+    
+  
+  
