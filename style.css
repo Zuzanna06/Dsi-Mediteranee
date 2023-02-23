@@ -8,7 +8,7 @@ body {
     background-color: #D1D6DA;
 }
 .container {
-	max-width: 1200px;
+	max-width: 100%;
 	margin: 0 auto;
 	padding: 0 22px;
     
@@ -382,29 +382,29 @@ nav ul li a:hover {
 
 
   .containerContact {
-	max-width: 1200px;
+	max-width: 100%;
 	margin: 0 auto;
 	padding: 0 px;
   color: #fff;
   background: linear-gradient(0deg, rgba(17,65,125,1) 0%, rgba(152,153,153,1) 100%);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
   font-family: 'Roboto';
   text-decoration: none;
     
     }
 
-    .contact{
-      width: 300px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+.contact{
+width: 300px;
+display: flex;
+flex-direction: column;
+justify-content: center;
   
-  
-    }
+}
   
     
-   .icone {
+.icone {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -413,20 +413,26 @@ nav ul li a:hover {
       background: #ffffff;
       border-radius: 50%;
       margin-right: 10px;
-    }
+}
   
-    .social .icone{
-      display: flex;
-    }
+.social .icone{
+display: flex;
+}
     
     
-    form{
-      width: 250px;
-      padding-block: 15px;
-      color: #ffffff;
-      border-top-right-radius: 100px;
-      border-color: #FD8A69;
-    }
+form{
+width: 250px;
+padding-block: 15px;
+color: #ffffff;
+border-top-right-radius: 100px;
+border-color: #FD8A69;
+ }
     
+
+ .bar{
+  height: 300px;
+  border-left: 2 px solid white;
+
+ }
   
   
