@@ -388,7 +388,7 @@ nav ul li a:hover {
   color: #fff;
   background: linear-gradient(0deg, rgba(17,65,125,1) 0%, rgba(152,153,153,1) 100%);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   font-family: 'Roboto';
   text-decoration: none;
@@ -426,13 +426,21 @@ padding-block: 15px;
 color: #ffffff;
 border-top-right-radius: 100px;
 border-color: #FD8A69;
+}
+
+.form{
+  width: 250px;
+  padding-block: 15px;
+  color: #ffffff;
+  border-top-right-radius: 100px;
+  border-color: #FD8A69;
  }
-    
 
  .bar{
   height: 300px;
   border-left: 2px solid white;
 
  }
-  
+
+
   
