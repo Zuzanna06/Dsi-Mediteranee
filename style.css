@@ -196,14 +196,12 @@ h5 {
 .quatreH {
     display: flex;
     align-items: center;
-    flex-direction: row;
     justify-content: space-around;
   }
 
 .quatreB {
     display: flex;
     align-items: center;
-    flex-direction: row;
     justify-content: space-around;
 }
 
@@ -479,6 +477,15 @@ display: flex;
   .containerTxt .content {
     display: block;
   }
+  .quatreH, .quatreB {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+  .containerContact{
+    display: block;
+  }
+  
  }
 
 
