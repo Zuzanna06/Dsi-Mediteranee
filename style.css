@@ -425,12 +425,13 @@ display: flex;
 }
 
 .form{
+  font-size: smaller;
   margin-top: 40px;
   margin-bottom: 30px;
   width: 300px;
   color: #ffffff;
-  border-top-right-radius: 100px;
-  border-color: #FD8A69;
+  background-color: #11417D;
+  box-shadow: 5px 5px 5px #D1D6DA;
  }
 
  .form input{
@@ -443,6 +444,9 @@ display: flex;
   border-left: 2px solid white;
  }
 
+ #envoyer{
+  background-color: #FD8A69;
+ }
  
 
 
