@@ -158,11 +158,13 @@ h1 {
 h3 {
     font-size: small;
     text-align: center;
+    line-height: 150%;
     font-family: 'Roboto';
 }
 
 h5 {
     font-weight: bold;
+    line-height: 140%;
     font-family: 'Roboto';
 }
   
@@ -277,7 +279,10 @@ h5 {
     border-radius: 12px;
     border-color: #989999;
     background: #989999;
-    box-shadow:  10px 10px 29px #1b2025,15px 15px 29px;
+    box-shadow:  5px 5px 0px 5px rgba(0, 0, 0, 0.05);
+     /* box-shadow:  10px 10px 29px #1b2025,15px 15px 29px;*/
+    
+    
     
     
   }
@@ -297,7 +302,7 @@ h5 {
     border-radius: 12px;
     border-color: #11417D;
     background: #11417D;
-    box-shadow:  10px 10px 29px #1b2025,15px 15px 29px;
+    box-shadow:  5px 5px 0px 5px rgba(0, 0, 0, 0.05);
     
     
   }
@@ -317,7 +322,7 @@ h5 {
     border-radius: 12px;
     border-color: #989999;
     background: #989999;
-    box-shadow:  10px 10px 29px #1b2025,15px 15px 29px;
+    box-shadow:  5px 5px 0px 5px rgba(0, 0, 0, 0.05);
     
     
   }
@@ -337,7 +342,7 @@ h5 {
     border-radius: 12px;
     border-color: #FD8A69;
     background: #FD8A69;
-    box-shadow:  10px 10px 29px #1b2025,15px 15px 29px;
+    box-shadow:  5px 5px 0px 5px rgba(0, 0, 0, 0.05);
     
     
   }
@@ -357,7 +362,7 @@ h5 {
     border-radius: 12px;
     border-color: #47A18B;
     background: #47A18B;
-    box-shadow:  10px 10px 29px #1b2025,15px 15px 29px;
+    box-shadow:  5px 5px 0px 5px rgba(0, 0, 0, 0.05);
     
     
   }
@@ -484,8 +489,27 @@ display: flex;
   }
   .containerContact{
     display: block;
+    width: 100%;
+    margin: auto;
   }
-  
+  .bar{
+    width: 60%;
+    height: 20px;
+    margin-left: 80px;
+    border-left: 0px solid white;
+    border-bottom: 2px solid white;
+   }
+   .contact{
+    padding: 20px;
+    margin-left: 60px;  
+    width: 100%;
+    line-height: 140%;
+    text-decoration: none;
+    font-family: 'Roboto';
+    }
+    .form{
+      margin-left: 80px;
+     }
  }
 
 
