@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/*header*************************/
+
 body {
   background-color: #D1D6DA;
 }
@@ -123,7 +125,6 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 .content {
@@ -177,7 +178,6 @@ h5 {
     text-align: center;
 }
 
-  
 .image img {
     max-width: 100%;
     height: auto; box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
@@ -190,10 +190,13 @@ h5 {
 }
 
 
+/*camamber*****************/
+
 .camembertDG {
    text-align: center;
 }
 
+/*formations*****************/
 
 .quatreH {
     display: flex;
@@ -281,8 +284,6 @@ h5 {
     background: #989999;
     box-shadow:  5px 5px 0px 5px rgba(0, 0, 0, 0.05);
      /* box-shadow:  10px 10px 29px #1b2025,15px 15px 29px;*/
-    
-    
     
     
   }
