@@ -1,22 +1,22 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #D1D6DA;
+  background-color: #D1D6DA;
 }
+
 .container {
-	max-width: 100%;
-	margin: 0 auto;
-	padding: 0 22px;
-    
+max-width: 100%;
+margin: 0 auto;
+padding: 0 22px;
 }
 
 header {
-	font-family: 'Roboto';
-	color: #fff;
+  font-family: 'Roboto';
+  color: #fff;
 }
 
 nav {
@@ -27,12 +27,12 @@ nav {
 }
 
 nav img {
-    padding-top: 10px;
+  padding-top: 10px;
 	height: 90px;
 }
 
 nav ul{
-    list-style: none;
+  list-style: none;
 	display: flex;
 }
 
@@ -43,7 +43,7 @@ nav ul li {
 nav ul li a {
   color: #224873;
   text-decoration: none;
-	font-size: 14px;
+  font-size: 14px;
 }
 
 nav ul li a:hover {
@@ -54,7 +54,6 @@ nav ul li a:hover {
 .mobile {
   display: none;
 }
-
 
 @media screen and (max-width: 600px) {
   body{
@@ -114,85 +113,81 @@ nav ul li a:hover {
     justify-content: center;
     max-width: 1200px;
     margin: 0 auto;
-  }
+}
 
-  .text {
+.text {
     flex: 1;
     padding: 0 50px;
     color: #fff;
-  }
+}
 
-  h1 {
+h1 {
     font-size: 42px;
     font-family: 'Audiowide', cursive;
     margin-bottom: 20px;
     text-align: center;
-  }
+}
 
-    .text h1 span{
+.text h1 span {
     color: #FD8A69;
     font-size: 42px;
     font-family: 'Audiowide', cursive;
     margin-bottom: 20px;
-  }
+}
 
-  h3 {
+h3 {
     font-size: small;
     text-align: center;
     font-family: 'Roboto';
-  }
+}
 
-  h5 {
+h5 {
     font-weight: bold;
     font-family: 'Roboto';
-  }
-  .image {
+}
+  
+.image {
     flex: 1;
     margin-top: 35px;
     margin-left: 20px;
     margin-right:40px;
     margin-bottom: 35px;
     text-align: center;
-  }
+}
 
-  .image img {
+  
+.image img {
     max-width: 100%;
     height: auto; box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
   }
 
-
-
- .camembertDG img{
+.camembertDG img{
     max-width: 94%;
     align-content: center;
     padding-bottom: 80px;
-  }
+}
 
 
-  .camembertDG {
+.camembertDG {
    text-align: center;
-  }
+}
 
 
-
-  .quatreH{
+.quatreH {
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-around;
   }
 
-  
-
-
-  .quatreB{
+.quatreB {
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-around;
-  }
+}
 
-  .quatreH .orange{
+.quatreH .orange{
     text-transform: uppercase; /* mise en majuscule de toutes les lettres*/
     text-size-adjust: 0;
     font-weight: bold;
@@ -200,8 +195,8 @@ nav ul li a:hover {
     text-align: justify;
     text-align: center;
     margin-top: 90px;
-    width: 190px;
-    height: 190px;
+    width: 185px;
+    height: 185px;
     color: #fff;
     font-family: 'Roboto';
     border-radius: 12px;
@@ -219,8 +214,8 @@ nav ul li a:hover {
     text-align: justify;
     text-align: center;
     margin-top: 90px;
-    width: 190px;
-    height: 190px;
+    width: 185px;
+    height: 185px;
     color: #fff;
     font-family: 'Roboto';
     border-radius: 12px;
@@ -239,8 +234,8 @@ nav ul li a:hover {
     text-align: justify;
     text-align: center;
     margin-top: 90px;
-    width: 190px;
-    height: 190px;
+    width: 185px;
+    height: 185px;
     color: #fff;
     font-family: 'Roboto';
     border-radius: 12px;
@@ -259,8 +254,8 @@ nav ul li a:hover {
     text-align: justify;
     text-align: center;
     margin-top: 90px;
-    width: 190px;
-    height: 190px;
+    width: 185px;
+    height: 185px;
     color: #fff;
     font-family: 'Roboto';
     border-radius: 12px;
@@ -279,8 +274,8 @@ nav ul li a:hover {
     text-align: justify;
     text-align: center;
     margin-bottom: 80px;
-    width: 190px;
-    height: 190px;
+    width: 185px;
+    height: 185px;
     color: #fff;
     font-family: 'Roboto';
     border-radius: 12px;
@@ -299,8 +294,8 @@ nav ul li a:hover {
     text-align: justify;
     text-align: center;
     margin-bottom: 80px;
-    width: 190px;
-    height: 190px;
+    width: 185px;
+    height: 185px;
     color: #fff;
     font-family: 'Roboto';
     border-radius: 12px;
@@ -319,8 +314,8 @@ nav ul li a:hover {
     text-align: justify;
     text-align: center;
     margin-bottom: 80px;
-    width: 190px;
-    height: 190px;
+    width: 185px;
+    height: 185px;
     color: #fff;
     font-family: 'Roboto';
     border-radius: 12px;
@@ -339,8 +334,8 @@ nav ul li a:hover {
     text-align: justify;
     text-align: center;
     margin-bottom: 80px;
-    width: 190px;
-    height: 190px;
+    width: 185px;
+    height: 185px;
     color: #fff;
     font-family: 'Roboto';
     border-radius: 12px;
@@ -350,10 +345,9 @@ nav ul li a:hover {
     
     
   }
+ 
 
-   
-
-  h2 {
+h2 {
     display: inline;
     font-family: 'Audiowide', cursive;
     text-transform: uppercase; /* mise en majuscule de toutes les lettres*/
@@ -369,14 +363,14 @@ nav ul li a:hover {
     border-radius: 8px;
     justify-content: center;
     align-items: center;
-    line-height: 140px;
-
-    
+    line-height: 140px;   
 }
 
 .buttomMilieux {
   text-align: center;
 }
+
+
 
 
 .containerContact {
@@ -389,20 +383,32 @@ nav ul li a:hover {
   justify-content: space-around;
   align-items: center;
   font-family: 'Roboto';
-  text-decoration: none;
-    
+  text-decoration: none; 
 }
 
 
 .contact{
-width: 30%;
+width: 25%;
+line-height: 140%;
+text-decoration: none;
+font-family: 'Roboto';
 display: flex;
 flex-direction: column;
 justify-content: center;
   
 }
+
+.contact br {
+  text-decoration: line-through;
+  text-transform: uppercase;
+}
+
+.social{
+  display: flex;
+  margin-top: 20px;
+}
   
-    
+  
 .icone {
       display: flex;
       align-items: center;
@@ -419,24 +425,24 @@ display: flex;
 }
 
 .form{
-  width: 250px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  width: 300px;
   color: #ffffff;
   border-top-right-radius: 100px;
   border-color: #FD8A69;
  }
- .form input{
-  height: 30px;
-  width: 100%;
 
+ .form input{
+  height: 25px;
+  width: 100%;
  }
 
  .bar{
   height: 200px;
   border-left: 2px solid white;
+ }
 
- }
- .social{
-  display: flex;
- }
+ 
 
 
