@@ -498,18 +498,18 @@ display: flex;
     margin-left: 80px;
     border-left: 0px solid white;
     border-bottom: 2px solid white;
-   }
-   .contact{
+  }
+  .contact{
     padding: 20px;
     margin-left: 60px;  
     width: 100%;
     line-height: 140%;
     text-decoration: none;
     font-family: 'Roboto';
-    }
-    .form{
-      margin-left: 80px;
-     }
+  }
+  .form{
+    margin-left: 80px;
+  }
  }
 
 
