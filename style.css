@@ -8,7 +8,7 @@ body {
   background-color: #D1D6DA;
 }
 
-.container {
+.navBar {
 max-width: 100%;
 margin: 0 auto;
 padding: 0 22px;
@@ -40,12 +40,18 @@ nav ul li {
 	margin: 0 18px;
 }
 
-nav ul li a {
+nav ul li a{
   color: #224873;
   text-decoration: none;
   font-size: 14px;
 }
 
+.menuburger li{
+  list-style: none;
+  color: #224873;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
 nav ul li a:hover {
 	color: #fff;
 }
@@ -55,9 +61,20 @@ nav ul li a:hover {
   display: none;
 }
 
+#burger{
+  visibility: hidden;
+}
+.menuburger{
+  display: none;
+  margin-top: 20px;
+}
+
 @media screen and (max-width: 600px) {
   body{
     height: 200vh;
+  }
+  .navBar nav {
+    display: none;
   }
   .mobile {
     display: block;
@@ -92,9 +109,12 @@ nav ul li a:hover {
   .mobile input{
     appearance: none;
   }
-  .mobile input:checked ~ .menuburger{
-    height: 100vh;
+  input:checked~.menuburger{
+    display: block;
   }
+  /* .mobile input:checked ~ .menuburger{
+    height: 100vh;
+  } */
 }
 
 
@@ -103,7 +123,7 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 55vh;
+    
 }
 
 .content {
@@ -202,8 +222,7 @@ h5 {
     border-radius: 12px;
     background: #FD8A69;
     border-color: #FD8A69;
-    box-shadow:  10px 10px 29px #1b2025,15px 15px 29px;
-    
+    box-shadow:  5px 5px 0px 5px rgba(0, 0, 0, 0.05);    
   }
 
   .quatreH .bleu{
@@ -221,8 +240,7 @@ h5 {
     border-radius: 12px;
     border-color: #11417D;
     background: #11417D;
-    box-shadow:  10px 10px 29px #1b2025,15px 15px 29px;
-    
+    box-shadow:  5px 5px 0px 5px rgba(0, 0, 0, 0.05);    
     
   }
 
@@ -370,13 +388,10 @@ h2 {
   text-align: center;
 }
 
-
-
-
 .containerContact {
 	max-width: 100%;
 	margin: 0 auto;
-	padding: 0 px;
+	padding: 0px;
   color: #fff;
   background: linear-gradient(0deg, rgba(17,65,125,1) 0%, rgba(152,153,153,1) 100%);
   display: flex;
@@ -388,6 +403,7 @@ h2 {
 
 
 .contact{
+margin-left: 50px;  
 width: 25%;
 line-height: 140%;
 text-decoration: none;
@@ -398,9 +414,16 @@ justify-content: center;
   
 }
 
-.contact br {
-  text-decoration: line-through;
+.contact h4 {
+  margin-bottom: 10px;
+  text-decoration: underline;
+  font-size: larger;
   text-transform: uppercase;
+}
+
+.contact p a {
+  font-family: 'Roboto' ;
+  color: #fafafa;
 }
 
 .social{
@@ -428,10 +451,13 @@ display: flex;
   font-size: smaller;
   margin-top: 40px;
   margin-bottom: 30px;
-  width: 300px;
+  padding: 20px;
+  width: 350px;
+  border-radius: 5px;
+  margin-right: 50px;
   color: #ffffff;
   background-color: #11417D;
-  box-shadow: 5px 5px 5px #D1D6DA;
+  box-shadow: 5px 5px 5px #8a8d8f;
  }
 
  .form input{
@@ -448,5 +474,11 @@ display: flex;
   background-color: #FD8A69;
  }
  
+
+ @media screen and (max-width: 600px){
+  .containerTxt .content {
+    display: block;
+  }
+ }
 
 

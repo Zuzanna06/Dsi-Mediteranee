@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="style.css">
     <title>DSI - Sensibilisation au handicap</title>
 </head>
 <body>
 	<header>
-		<div class="container">
+		<div class="navBar">
 			<nav>
 				<a href="index.html"><img src="img/logo-dsiM-rem.png" alt="Logo"></a>
 				<ul>
@@ -27,20 +28,19 @@
 				</ul>
 			</nav>
 
-			<label for="" class="mobile">
-                <input type="checkbox" name="" id=""><span class="burgerbtn"><i></i></span>
-                <i class="fa-solid fa-bars"></i>
-                <span class="menuburger">
-                    <ul>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                    </ul>
-                </span>
-            </label>
-
+			<input type="checkbox" name="burger" id="burger" />
+        	<label class="mobile" for="burger">
+				<i class="fa-solid fa-bars fa-2x"></i>
+			</label>
+			<ul class="menuburger">
+				<li><a href="index.html">NOS FORMATION</a></li>
+				<li><a href="https://ecandidature.dsi-ap.com/">NOUS RECROUTONS</a></li>
+				<li><a href="https://www.dsi-ap.com/site_dsi/nos-metiers/projets-numeriques/informatique.html">NOS METIERS</a></li>
+				<li><a href="https://www.dsi-ap.com/site_dsi/vos-avantages.html">VOS AVANTAGES</a></li>
+				<li><a href="https://www.dsi-ap.com/site_dsi/nous-connaitre/plus-de-20-ans-d-histoire.html">NOUS CONNAITRE</a></li>
+				<li><a href="https://www.dsi-ap.com/site_dsi/actualites.html">ACTUALITES</a></li>
+				<li><a href="https://www.dsi-ap.com/site_dsi/contactez-nous.html">NOUS CONTACTER</a></li>
+			</ul>
 		</div>
 	</header>
 	<main>
@@ -93,12 +93,12 @@
 	<footer>
         <div class="containerContact">
             <div class="contact">
-                <br>Contactez nous</br>
+                <h4>Contactez nous</h4>
                 <address>
                     <p>80 Route des Lucioles</p>
                     <p>Les Espaces de Sophia</p>
                     <p>Batiment K</p>
-                    <p>06560 Valbonne</p>
+                    <p>06560 VALBONNE</p>
                     <p><a href="tel:+33562741000">Tel: 05 62 74 10 00</a></p>
                     <p><a href="mailto:accueil@dsi-ap.com">accueil@dsi-ap.com</a></p>
                 </address>
