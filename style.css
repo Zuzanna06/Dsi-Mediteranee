@@ -407,14 +407,14 @@ h2 {
 
 
 .contact{
-margin-left: 50px;  
-width: 25%;
-line-height: 140%;
-text-decoration: none;
-font-family: 'Roboto';
-display: flex;
-flex-direction: column;
-justify-content: center;
+  margin-left: 50px;  
+  width: 25%;
+  line-height: 140%;
+  text-decoration: none;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   
 }
 
@@ -482,11 +482,16 @@ display: flex;
  @media screen and (max-width: 600px){
   .containerTxt .content {
     display: block;
+    margin-top:15px;
   }
   .quatreH, .quatreB {
     display: block;
-    width: 80%;
+    width: 50%;
     margin: auto;
+  }
+  .buttomMilieux {
+    text-align: center;
+    height: 40%;
   }
   .containerContact{
     display: block;
@@ -496,20 +501,20 @@ display: flex;
   .bar{
     width: 60%;
     height: 20px;
-    margin-left: 80px;
+    margin-left:45px;
     border-left: 0px solid white;
     border-bottom: 2px solid white;
   }
   .contact{
     padding: 20px;
-    margin-left: 60px;  
+    margin-left: 30px;  
     width: 100%;
     line-height: 140%;
     text-decoration: none;
     font-family: 'Roboto';
   }
   .form{
-    margin-left: 80px;
+    margin-left: 40px;
   }
  }
 
