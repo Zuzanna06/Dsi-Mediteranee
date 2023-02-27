@@ -132,7 +132,6 @@ nav ul li a:hover {
     background: linear-gradient(180deg, rgba(17,65,125,1) 0%, rgba(152,153,153,1) 100%);
     align-items: center;
     justify-content: center;
-    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -202,169 +201,75 @@ h5 {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-top: 80px;
   }
 
 .quatreB {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 80px;
 }
 
 .quatreH .orange{
-    text-transform: uppercase; /* mise en majuscule de toutes les lettres*/
-    text-size-adjust: 0;
-    font-weight: bold;
-    font-size: medium;
-    text-align: justify;
-    text-align: center;
-    margin-top: 90px;
-    width: 185px;
-    height: 185px;
-    color: #fff;
-    font-family: 'Roboto';
-    border-radius: 12px;
     background: #FD8A69;
-    border-color: #FD8A69;
-    box-shadow:  5px 5px 0px 5px rgba(0, 0, 0, 0.05);    
+    border-color: #FD8A69;  
   }
 
   .quatreH .bleu{
-    text-transform: uppercase; /* mise en majuscule de toutes les lettres*/
-    text-size-adjust: 0;
-    font-weight: bold;
-    font-size: medium;
-    text-align: justify;
-    text-align: center;
-    margin-top: 90px;
-    width: 185px;
-    height: 185px;
-    color: #fff;
-    font-family: 'Roboto';
-    border-radius: 12px;
     border-color: #11417D;
     background: #11417D;
-    box-shadow:  5px 5px 0px 5px rgba(0, 0, 0, 0.05);    
     
   }
 
   .quatreH .vert{
-    text-transform: uppercase; /* mise en majuscule de toutes les lettres*/
-    text-size-adjust: 0;
-    font-weight: bold;
-    font-size: medium;
-    text-align: justify;
-    text-align: center;
-    margin-top: 90px;
-    width: 185px;
-    height: 185px;
-    color: #fff;
-    font-family: 'Roboto';
-    border-radius: 12px;
     border-color: #47A18B;
     background: #47A18B;
-    box-shadow:  5px 5px 0px 5px rgba(0, 0, 0, 0.05);
-
   }
 
 
   .quatreH .gris{
-    text-transform: uppercase; /* mise en majuscule de toutes les lettres*/
-    text-size-adjust: 0;
-    font-weight: bold;
-    font-size: medium;
-    text-align: justify;
-    text-align: center;
-    margin-top: 90px;
-    width: 185px;
-    height: 185px;
-    color: #fff;
-    font-family: 'Roboto';
-    border-radius: 12px;
     border-color: #989999;
     background: #989999;
-    box-shadow:  5px 5px 0px 5px rgba(0, 0, 0, 0.05);
-     /* box-shadow:  10px 10px 29px #1b2025,15px 15px 29px;*/
-    
-    
   }
 
   .quatreB .bleu{
-    text-transform: uppercase; /* mise en majuscule de toutes les lettres*/
-    text-size-adjust: 0;
-    font-weight: bold;
-    font-size: medium;
-    text-align: justify;
-    text-align: center;
-    margin-bottom: 80px;
-    width: 185px;
-    height: 185px;
-    color: #fff;
-    font-family: 'Roboto';
-    border-radius: 12px;
     border-color: #11417D;
     background: #11417D;
-    box-shadow:  5px 5px 0px 5px rgba(0, 0, 0, 0.05);
-    
-    
   }
 
   .quatreB .gris{
-    text-transform: uppercase; /* mise en majuscule de toutes les lettres*/
-    text-size-adjust: 0;
-    font-weight: bold;
-    font-size: medium;
-    text-align: justify;
-    text-align: center;
-    margin-bottom: 80px;
-    width: 185px;
-    height: 185px;
-    color: #fff;
-    font-family: 'Roboto';
-    border-radius: 12px;
     border-color: #989999;
     background: #989999;
-    box-shadow:  5px 5px 0px 5px rgba(0, 0, 0, 0.05);
-    
-    
   }
 
-  .quatreB .orange{
+  .gris,
+  .bleu,
+  .orange,
+  .vert{
     text-transform: uppercase; /* mise en majuscule de toutes les lettres*/
     text-size-adjust: 0;
     font-weight: bold;
     font-size: medium;
     text-align: justify;
     text-align: center;
-    margin-bottom: 80px;
-    width: 185px;
-    height: 185px;
+    box-shadow:  5px 5px 0px 5px rgba(0, 0, 0, 0.05);
     color: #fff;
     font-family: 'Roboto';
     border-radius: 12px;
+    width: 185px;
+    height: 185px;
+  }
+
+ 
+  .quatreB .orange{  
     border-color: #FD8A69;
-    background: #FD8A69;
-    box-shadow:  5px 5px 0px 5px rgba(0, 0, 0, 0.05);
-    
-    
+    background: #FD8A69; 
   }
 
   .quatreB .vert{
-    text-transform: uppercase; /* mise en majuscule de toutes les lettres*/
-    text-size-adjust: 0;
-    font-weight: bold;
-    font-size: medium;
-    text-align: justify;
-    text-align: center;
-    margin-bottom: 80px;
-    width: 185px;
-    height: 185px;
-    color: #fff;
-    font-family: 'Roboto';
-    border-radius: 12px;
     border-color: #47A18B;
-    background: #47A18B;
-    box-shadow:  5px 5px 0px 5px rgba(0, 0, 0, 0.05);
-    
+    background: #47A18B;    
     
   }
  
@@ -524,3 +429,4 @@ display: flex;
  }
 
 
+  
