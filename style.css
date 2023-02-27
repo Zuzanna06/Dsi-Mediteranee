@@ -516,6 +516,11 @@ display: flex;
   .form{
     margin-left: 30px;
   }
+  h2 {
+    display: block;
+    width: auto;
+    line-height: normal;
+  }
  }
 
 
