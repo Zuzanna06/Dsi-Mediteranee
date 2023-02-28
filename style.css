@@ -144,6 +144,7 @@ nav ul li a:hover {
 h1 {
     font-size: 42px;
     font-family: 'Audiowide', cursive;
+    margin-top: 15px;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -201,7 +202,9 @@ h5 {
 .camembertDG {
    text-align: center;
 }
-
+.camembertDGM {
+  display: none;
+}
 /*formations*****************/
 
 .quatreH {
@@ -408,8 +411,10 @@ display: flex;
     padding-top: 40px;
     padding-bottom: 40px;
   }
-  .buttomMilieux {
-    text-align: center;
+  .buttomMilieux h2 {
+    margin: 20px;
+    padding: 20px;
+
   }
 
   .carre{
@@ -425,18 +430,17 @@ display: flex;
     height: 20px;
     margin-left:45px;
     border-left: 0px solid white;
-    border-bottom: 2px solid white;
   }
   .contact{
     padding: 20px;
-    margin-left: 30px;  
-    width: 100%;
+    width: 80%;
+    margin: auto;
     line-height: 140%;
     text-decoration: none;
     font-family: 'Roboto';
   }
   .form{
-    margin-left: 30px;
+    margin: auto;
   
     
   }
@@ -445,6 +449,18 @@ display: flex;
     width: auto;
     line-height: normal;
   }
+  .camembertDG{
+    display: none;
+  }
+
+  .camembertDGM {
+    display: block;
+  }
+  .camembertDGM img{
+    display: block;
+    width: 100%;
+  }
+
  }
 
 
