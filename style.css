@@ -148,6 +148,13 @@ h1 {
     text-align: center;
 }
 
+.text p {
+  font-size: 42px;
+  font-family: 'Audiowide', cursive;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 .text h1 span {
     color: #FD8A69;
     font-size: 42px;
@@ -268,7 +275,7 @@ h5 {
   }
 
   .quatreB .vert{
-    border-color: #47A18B;
+     border-color: #47A18B;
     background: #47A18B;    
     
   }
@@ -299,8 +306,6 @@ h2 {
 
 .containerContact {
 	max-width: 100%;
-	margin: 0 auto;
-	padding: 0px;
   color: #fff;
   background: linear-gradient(0deg, rgba(17,65,125,1) 0%, rgba(152,153,153,1) 100%);
   display: flex;
@@ -320,18 +325,25 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+
   
 }
 
 .contact h4 {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
   text-decoration: underline;
   font-size: larger;
   text-transform: uppercase;
 }
 
+.contact adress p {
+  font-family: 'Roboto', serif;
+  text-decoration: none;
+}
+
 .contact p a {
-  font-family: 'Roboto' ;
+  font-family: 'Roboto';
   color: #fafafa;
 }
 
@@ -393,10 +405,15 @@ display: flex;
     display: block;
     width: 50%;
     margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   .buttomMilieux {
     text-align: center;
-    height: 30%;
+  }
+
+  .carre{
+    margin-bottom: 20px;
   }
   .containerContact{
     display: block;
@@ -420,6 +437,8 @@ display: flex;
   }
   .form{
     margin-left: 30px;
+  
+    
   }
   h2 {
     display: block;
